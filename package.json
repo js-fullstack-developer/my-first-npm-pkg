@@ -1,6 +1,6 @@
 {
   "name": "@chawlaamit/my-first-npm-pkg",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "My first npm package",
   "main": "dist/index.js",
   "type": "module",

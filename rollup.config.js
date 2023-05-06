@@ -6,7 +6,8 @@ export default {
   output: [
     {
       format: "es",
-      dir: 'dist'
+      dir: 'dist',
+      plugins: [terser()]
     },
   ],
   plugins: [json()],
