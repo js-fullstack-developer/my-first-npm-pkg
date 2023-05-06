@@ -1,5 +1,5 @@
 {
-  "name": "first-ex",
+  "name": "@chawlaamit/my-first-npm-pkg",
   "version": "0.0.1",
   "description": "My first npm package",
   "main": "dist/index.js",
@@ -7,9 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup --config",
-    "prepare" : "yarn run build",
-    "version" : "git add -A .",
-    "postversion" : "git push && git push --tags"
+    "prepare": "yarn run build",
+    "version": "git add -A .",
+    "postversion": "git push && git push --tags"
   },
   "author": "Amit Chawla",
   "license": "ISC",
